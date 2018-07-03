@@ -7,7 +7,7 @@ INSERT INTO ages (age_range)
 VALUES ("Less than 8 years old"), ("8 - 13 years old"), ("13 Years and Up"), ("Adult Games Only");
 
 -- Seeds for boardGames Model
-INSERT INTO boardGames (gameName, category_id, age_id, difficulty, minPlayer, maxPlayer, timeToPlay, manufacturer, year, img,rating) 
+INSERT INTO boardGames (gameName, category_id, age_id, difficulty, minPlayer, maxPlayer, timeToPlay, manufacturer, year, img, rating) 
 VALUES ("Agricola", 5, 3, "Intermediate", 1, 5, "120 +", "Z-Man Games", 2008,  "https://cdn.shopify.com/s/files/1/1911/5793/products/agricola-strategy-board-game-games-and-hobbies-new-zealand-nz-296_1024x1024.jpg?v=1505674388",4);
 
 INSERT INTO boardGames (gameName, category_id, age_id, difficulty, minPlayer, maxPlayer, timeToPlay, manufacturer, year, img,rating) 
